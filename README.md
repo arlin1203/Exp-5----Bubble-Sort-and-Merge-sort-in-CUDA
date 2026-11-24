@@ -27,7 +27,7 @@ c. Comparison:
 Compare the performance of the CUDA-based Bubble Sort and Merge Sort with a CPU-based Bubble Sort and Merge Sort implementation.
 Discuss the differences in execution time and explain the limitations of Bubble Sort and Merge Sort when parallelized on the GPU.
 ## PROGRAM:
-```
+```c
 %%writefile sorting.cu
 #include <stdio.h>
 #include <stdlib.h>
